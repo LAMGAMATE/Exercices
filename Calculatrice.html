@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Html</title>
+    
+</head>
+<style>
+    h1{
+        color: red;
+    }
+    #b1{
+       background-color: black; 
+       position: relative;
+       left : 380px
+    
+    }
+    h3{
+        color: green;
+    }
+    #selec1{
+        width: 80px;
+    }
+
+</style>
+<body id="b1">
+    <h1>Welcome</h1><br><br>
+    <form method="post" action="Calculatrice.php">
+        
+    <label>Number 1 : </label>
+    <input type="text" name="TX1"><br><br>
+    <label>Number 2 : </label>
+    <input type="text"  name="TX2"><br><br>
+
+    <label>Operation : </label>
+
+    <select name="Sel1" id="selec1">
+        <option value="+">+</option>
+        <option value="-">-</option>
+        <option value="*">*</option>
+        <option value="/">/</option>
+
+    </select><br><br>
+
+    <input type="submit">
+
+    <h3>Today : 17/5/2024</h3>
+
+</form>
+
+</body>
+
+</html>
